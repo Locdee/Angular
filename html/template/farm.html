@@ -1,0 +1,10 @@
+
+<div id="chban"></div>
+<div id="chcont">
+	<div class="chcont">
+		<div class="chcontch {{chcont.islast?'last':''}}" ng-repeat="chcont in chconts">
+			<div class="conttext {{chcont.isleft?'left':'right'}}">{{chcont.conttext}}</div>
+			<img class="contimg {{chcont.isleft?'right':'left'}}" ng-src="{{chcont.url}}">
+		</div>
+	</div>
+</div>
