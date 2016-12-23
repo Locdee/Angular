@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+/**
+ *
+ * @email   942093888@qq.com
+ * @date    2016-11-22 18:55:57
+ * @date    2016-11-22 18:55:57
+ * @version 1.0
+ */
+
+#chban {
+	width: 100%;
+	height: 470px;
+	background: url(../images/farm/banner.jpg);
+	background-size: cover;
+}
+
+#chcont {
+	width: 100%;
+}
+
+.chcont {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 76px;
+}
+/*九月农牧*/
+.chcont .chcontch {
+	height: 296px;
+	padding-bottom: 152px;
+}
+
+.chcont .last {
+	padding-bottom: 118px;
+}
+
+.chcontch .contimg {
+	height: 296px;
+	width: 544px;
+}
+
+.chcontch .conttext {
+	height: 296px;
+	width: 600px;
+	text-indent: 2em;
+	line-height: 38px;
+	font-size: 16px;
+}
+
+.chcontch .conttext:first-letter {
+	font-size: 1.5em;
+}
+/*宁乡花猪*/
+.contlist-hz li {
+	width: 100%;
+	height: 150px;
+	padding: 20px 0;
+	border-bottom: 1px dashed #e0e0e0;
+}
+.contlist-hz li .contliimg{
+	width:200px;
+	height:150px;
+}
+.contlist-hz li .contlitext {
+	height: 144px;
+	width: 969px;
+	margin-top: 7px;
+	margin-left: 22px;
+}
+
+.contlist-hz li .contlitext h3 {
+	height: 50px;
+	line-height: 50px;
+	text-indent: .5em;
+}
+
+.contlist-hz li .contlitext span.right {
+	color: #999;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+}
+
+.contlist-hz li .contlitext h3 span {
+	color: #00b2af;
+}
+
+.contlist-hz li p {
+	color: #808080;
+	line-height: 32px;
+	font-size: 16px;
+}
+
+.chcont .more {
+	width: 1200px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.chcont .more a {
+	color: #b3b3b3;
+	font-size: 16px;
+}
+.chcont .more img{
+	width:100px;
+	height:100px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+/*news*/
+.chcont .chnewstop {
+	width: 100%;
+	height: 390px;
+	padding-top: 20px;
+	padding-bottom: 56px;
+	box-sizing: border-box;
+	/*border-bottom: 1px dashed #e0e0e0;*/
+}
+
+.chnewstop .topleft img {
+	width: 600px;
+	height: 312px;
+}
+
+.chnewstop .topright {
+	width: 600px;
+	height: 312px;
+	padding: 16px 0 20px 34px;
+	box-sizing: border-box;
+}
+
+.topright .rttop {
+	padding-bottom: 8px;
+	border-bottom: 1px dashed #e5e5e5;
+}
+
+.rttop p {
+	font-size: 14px;
+	height: 42px;
+	line-height: 42px;
+	color: #808080;
+}
+
+.topright .rtbot {
+	padding-top: 14px;
+	height: 196px;
+}
+
+.rtbot p {
+	font-size: 16px;
+	color: #808080;
+	height: 30px;
+	line-height: 30px;
+}
+.chnewslist li {
+	width: 100%;
+	border-bottom: 1px dashed #e0e0e0;
+}
+.chnewslist li .chnewsbot{
+	width: 100%;
+	height: 68px;
+	line-height: 68px;
+}
+
+.chnewslist li h3 a {
+	font-size: 16px;
+}
+
+.chnewslist li h3 a span {
+	color: #00b2af;
+}
+
+.chnewslist li span.right {
+	color: #999;
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+.catust .ust{
+	width:542px;
+}
+.catust .ust img{
+	width:542px;
+	height:272px;
+	border:0;
+}
+.catust .ust p{
+	color:#808080;
+	font-size:14px;
+	height:54px;
+	line-height:54px;
+}
+.contactus .catusb{
+	padding-top:18px;
+	padding-bottom: 56px;
+}
+.contactus .catusb p{
+	line-height: 52px;
+	font-size: 16px;
+	/*color: ;*/
+}
+.contactus .catusb p span{
+	color:#808080 ;
+}
+ .catusb p a{
+	color:#000 ;
+	margin-right:24px;
+}
+.mglt82{
+	margin-left:82px;
+}
+.wt460{
+	width:460px;
+}
+.wt290{
+	width:290px;
+}
+.wt282{
+	width:282px;
+}
+.wt168{
+	width:168px;
+}
+
+.joinus .joint{
+	height:40px;
+	border-bottom: 2px dashed #ddd;
+}
+.joint .jheader{
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+}
+.joinus .joinb{
+	padding-bottom: 120px;
+}
+.joinus .joinb li{
+	border-bottom: 2px dashed #ddd;
+	
+}
+
+.joinb li .lit{
+	
+}
+.joinb li .lit .lidetail{
+	height:58px;
+	line-height:58px;
+	float:left;
+	/*font-size:16px;*/
+	color:#414141;
+}
+.joinb li .lit .lidetail span{
+	padding-left: 2em;
+	font-size: 20px;
+	cursor: pointer;
+}
+.joinb li .lib {
+	padding:15px 0 ;
+	border-top: 2px dashed #ddd;
+	
+}
+.joinb li .lib p {
+	line-height: 38px;
+	font-size: 14px;
+}
+.joinb li .lib p span{
+	font-weight: bold;
+}
